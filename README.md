@@ -21,7 +21,7 @@ O navegador pode avisar *"Este arquivo não é baixado com frequência"*: clique
    (O aviso aparece porque o programa não tem assinatura digital paga. Ele é feito por um professor, para professores.)
 3. Deixe marcado **"Abrir o robô junto com o Windows"** › **Instalar** › **Concluir**.
 
-Não pede senha de administrador. Se o seu **antivírus** bloquear ou apagar o robô, restaure o arquivo e adicione uma **exceção** para a pasta `%LOCALAPPDATA%\Programs\ProfeX Robo`.
+Não pede senha de administrador. Se algum **antivírus** reclamar, restaure o arquivo e adicione uma **exceção** para a pasta `%LOCALAPPDATA%\Programs\ProfeX Robo`.
 
 ## 3. Configurar (só na primeira vez)
 
@@ -60,11 +60,8 @@ O robô procura versão nova sozinho (ao abrir e a cada 6 horas) e se atualiza s
 ## Problemas
 
 - Clique com o botão direito no ícone › **Ver o registro** e mande o arquivo para quem te indicou o robô (ele **não** tem senhas).
-- Teste rápido das peças: pressione **Windows + R**, cole o texto abaixo e aperte Enter; depois veja o registro.
-
-  ```
-  "%LOCALAPPDATA%\Programs\ProfeX Robo\ProfeX-Robo.exe" --teste
-  ```
+- Teste rápido das peças: menu **Iniciar** › **Testar o Robô do ProfeX**. Aparece uma janelinha com o que está ok e o que deu erro.
+- O robô roda pelo **Python oficial** (programa `pythonw.exe`, assinado pela Python Software Foundation), instalado junto, só para ele.
 
 ## Desinstalar
 
